@@ -1,0 +1,17 @@
+{
+  "name": "@parcel/example-expo",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "parcel serve --config .parcelrc entry.js --target default --host 10.6.10.149 --hmr-port 4444",
+    "build": "parcel build --config .parcelrc entry.js"
+  },
+  "_dependencies": {
+    "expo": "^43.0.0",
+    "expo-status-bar": "~1.1.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-web": "0.17.1"
+  },
+  "browserslist": "Safari 11"
+}
